@@ -29,6 +29,9 @@ public class ContactController {
 
         return contactService.findAll();
     }
+    public GetName nameContact(){
+        return nameContact();
+    }
 
 
     @PostMapping("/contacts")
